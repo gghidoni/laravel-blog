@@ -1,0 +1,209 @@
+
+
+a{
+    text-decoration: none;
+    color: #982649;
+    cursor: pointer;
+}
+
+button, input[type=submit]{
+    background-color: transparent;
+    border: 1px solid teal;
+    padding: 7px;
+    font-size: 16px;
+    color: teal; 
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+body, html{
+    font-family: sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    padding-bottom: 100px;
+}
+
+header {
+    background-color: #eee;
+    padding: 30px;
+    width: 100%;
+    height: 40px;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 33px;
+    text-decoration: none;
+    color: teal;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a, .menu span {
+    margin-left: 50px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.menu span {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.menu button{
+    margin-left: 10px;
+    margin-top: -5px;
+    
+    background-color: transparent;
+    border: 1px solid teal;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+.content article{
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 20px 20px 40px 20px;
+    position: relative;
+}
+
+.content article h2{
+    margin: 0;
+    color: teal;
+}
+
+.content article h2 a{
+    text-decoration: none;
+    color: teal;
+}
+
+.content article span{
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.content article span a strong{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.content article .tags{
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.content article .tags strong{
+    color: #982649;
+    font-size: 20px;
+}
+
+.content article .comments-prev{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.content article .comments-prev span{
+    color: #982649;
+    font-weight: bold;
+}
+
+.content article .edit{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.3;
+}
+
+article + article {
+    margin-top: 1.5rem;
+}
+
+.add-comments {
+    margin-top: 40px;
+
+}
+
+.add-comments h4{
+    margin-bottom: 10px;
+}
+
+.list-comments{
+    margin-top: 40px;
+}
+
+.list-comments span strong{
+    color: #982649;
+    font-size: 18px;
+}
+
+.list-comments time{
+    font-size: 13px;
+}
+
+.list-comments h4{
+    margin-bottom: 10px;
+}
+
+.comment{
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.comment p{
+    margin-bottom: 0;
+}
+
+.form{
+    padding: 25px;
+    background-color: #eee;
+    width: 50%;
+    margin: 100px auto;
+    border-radius: 10px;
+  
+}
+
+.form h1{
+    margin: 0 0 40px 0;
+    color: teal;
+}
+
+
+
+
+
+
+
